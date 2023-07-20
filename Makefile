@@ -12,7 +12,7 @@ CXX = g++
 LD =
 SUFFIX = o
 
-CXXFLAGS = -Wall -std=c++11 -pedantic -g $(INCLUDEDIRS) -m64 -fPIC \
+CXXFLAGS = -Wall -std=c++11 -pedantic -g $(INCLUDEDIRS) -fPIC \
 	-fexceptions -DNEBUG -DIL_STD -Wno-long-long \
 	-Wno-attributes  -fpermissive -Wno-sign-compare
 
